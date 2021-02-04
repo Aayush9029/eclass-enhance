@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap");
+:root {
+  --bg-color: #f2f3fb;
+  --inset: #e5e8f2;
+  --nm: 6px 6px 16px 0 rgba(0, 0, 0, 0.233),
+    -6px -6px 16px 0 rgba(255, 255, 255, 1);
+  --nm-inset: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2),
+    inset -4px -4px 8px 0 rgba(255, 255, 255, 0.8);
+}
+
+* {
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+}
+
+body,
+.card-body,
+.p-3,
+#region-main-box,
+.fixed-top .bg-white,
+.list-group-item,
+.col-sm,
+.col,
+#region-main,
+input,
+.section,
+.nav-drawer,
+.row {
+  background-color: var(--bg-color) !important;
+  /* font-family: "Baloo Thambi 2"; */
+  font-size: medium;
+}
+.page-header {
+  display: relative;
+}
+.page-header-headings > h1 {
+  font-weight: 600;
+}
+a {
+  padding: 0.45em;
+}
+
+a:hover {
+  border-radius: 0.5em;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(rgb(121, 217, 255) 50%, rgb(99, 193, 255) 100%);
+  /* color: white; */
+  text-decoration: none;
+}
+
+.media-body {
+  color: rgb(0, 94, 218);
+}
+
+.speech,
+.watson-btn,
+#inst1128771,
+#inst1128764,
+#inst1128774,
+#inst1128776 {
+  display: none;
+}
+
+.dashboard-card,
+.list-group-item {
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--bg-color);
+  color: var(--accent-color);
+  box-shadow: var(--nm);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.list-group-item {
+  border-radius: 2px;
+  margin-top: 0.5em;
+  transition: box-shadow 1s ease-in-out;
+}
+
+.list-group-item:hover,
+.btn:hover {
+  box-shadow: var(--nm-inset);
+}
+
+.card-footer {
+  background-color: var(--bg-color) !important;
+  color: var(--accent-color);
+}
+
+.progress {
+  background-color: var(--bg-color) !important;
+}
+
+.progress-bar {
+  background-color: rgb(46, 201, 46);
+}
+
+.dropdown-menu {
+  background-color: var(--bg-color) !important;
+}
+
+.page-link {
+  border-radius: 4px;
+  background-color: var(--bg-color);
+  color: var(--accent-color);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.page-link:hover {
+  box-shadow: var(--nm);
+  background-color: rgb(233, 244, 255);
+}
+
+.sectionname {
+  background-color: var(--bg-color);
+  color: var(--accent-color);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.sectionname:hover {
+  background-color: rgb(233, 244, 255);
+}
+
+.text-danger {
+  font-weight: 600;
+  color: rgb(255, 65, 65);
+}
