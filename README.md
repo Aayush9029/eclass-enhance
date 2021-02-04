@@ -1,18 +1,16 @@
 # eclass-enhance
 This is a browser extension for eclass, which removes pop-ups and gives it a modern look. *subjective*
-##  ![](https://img.shields.io/badge/Firefox-70.0+-orange?style=flat-square) ![](https://img.shields.io/badge/Safari-12.0-skyblue?style=flat-square)
+##  ![](https://img.shields.io/badge/Firefox-70.0+-orange?style=flat-square) 
 
 ### Installation (pre-complied):
 
-> Download for firefox:
+> Installation for firefox:
+>
+> Download the [eclass-enhance.xpi](https://github.com/Aayush9029/eclass-enhance/releases/download/1.1/eclass-enhance.xpi)
+> Go to Settings > Add-ons > Install add-on from a file
 > 
-> ...
- 
-
-> Download for chrome: 
-> 
-> ... 
-
+> Then select the eclass-enhance.xpi file :)
+>
 
 
 ### Custom Installation: 
@@ -45,8 +43,8 @@ web-ext run
 
 
 ### To Do
-- [ ] add precompiled binary links
-- [ ] complie binary for safari
+- [x] add precompiled binary links
+- [ ] complie for chromium / chrome.
 - [ ] add settings page, disable / enable certain features.
 - [x] make link hover more prominent
 - [ ] DARK MODE!!
