@@ -7,7 +7,7 @@
   "homepage_url": "https://github.com/Aayush9029/eclass-enhance",
 
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["/app/background.js"]
   },
 
   "page_action": {

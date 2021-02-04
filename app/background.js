@@ -1,4 +1,4 @@
-const CSS = "/style.css"
+const CSS = "/app/style.css"
 const TITLE_APPLY = "Apply CSS";
 const TITLE_REMOVE = "Remove CSS";
 const APPLICABLE_PROTOCOLS = ["http:", "https:"];
