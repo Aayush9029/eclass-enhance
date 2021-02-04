@@ -17,7 +17,9 @@
   
   "permissions": [
     "tabs",
-    "*://eclass.yorku.ca/*"
+    "*://eclass.yorku.ca/*",
+    "contextMenus",
+    "clipboardWrite"
   ]
 
 }

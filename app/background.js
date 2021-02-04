@@ -1,4 +1,4 @@
-const CSS = "/app/style.css"
+let CSS = "/app/dark-style.css"
 const TITLE_APPLY = "Apply CSS";
 const TITLE_REMOVE = "Remove CSS";
 const APPLICABLE_PROTOCOLS = ["http:", "https:"];
@@ -67,7 +67,25 @@ browser.tabs.onUpdated.addListener((id, changeInfo, tab) => {
   initializePageAction(tab);
 });
 
+
 /*
 Toggle CSS when the page action is clicked.
 */
 browser.pageAction.onClicked.addListener(toggleCSS);
+
+
+
+//  Context menu
+
+browser.contextMenus.create({
+  id: "dark_mode",
+  title: "Toggle e-class enhancer",
+  contexts: ["all"],
+});
+browser.contextMenus.onClicked.addListener((info, tab) => {
+  if (info.menuItemId === "dark_mode") {
+      console.log("Changing style")
+      CSS = "/app/dark-style.css"
+      toggleCSS(tab)
+  }
+});

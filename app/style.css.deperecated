@@ -23,7 +23,7 @@ body,
 #region-main,
 input,
 .section,
-.nav-drawer,
+#nav-drawer,
 .row {
   background-color: var(--bg-color) !important;
   /* font-family: "Baloo Thambi 2"; */
