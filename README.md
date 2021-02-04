@@ -14,12 +14,6 @@ This is a browser extension for eclass, which removes pop-ups and gives it a mod
 > ... 
 
 
-> Download for safari:
-> 
-> ...  
->
-
-
 
 ### Custom Installation: 
 
