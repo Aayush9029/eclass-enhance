@@ -47,6 +47,6 @@ web-ext run
 - [ ] complie for chromium / chrome.
 - [ ] add settings page, disable / enable certain features.
 - [x] make link hover more prominent
-- [ ] DARK MODE!!
-- [ ] add more visual enhancements
+- [x] DARK MODE!!
+- [x] add more visual enhancements
 - [ ] add custom css injection feild
