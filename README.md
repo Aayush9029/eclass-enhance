@@ -1,5 +1,7 @@
 # eclass-enhance
 This is a browser extension for eclass, which removes pop-ups and gives it a modern look. *subjective*
+*For optimal results use Firefox :)*
+
 ##  ![](https://img.shields.io/badge/Firefox-70.0+-orange?style=flat-square) 
 
 ### Installation (pre-complied):
@@ -13,11 +15,22 @@ This is a browser extension for eclass, which removes pop-ups and gives it a mod
 >
 
 
+---
 ### Custom Installation: 
+#### Firefox
 
 1. Clone the repo `git clone https://github.com/Aayush9029/eclass-enhance.git`
-
 2. In Firefox: Open the about:debugging page, click "This Firefox" (in newer versions of Firefox), click "Load Temporary Add-on", then select any file in your extension's directory.
+
+
+#### Safari 
+1. Installation for safari (requires Xcode)
+2. Go to [Safari-Releases](https://github.com/Aayush9029/eclass-enhance/releases/tag/v0.5)
+3.  Follow the instructions
+
+---
+
+
 
 
 ### Build the extension on your own:
