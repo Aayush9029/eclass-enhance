@@ -64,3 +64,4 @@ web-ext run
 - [x] DARK MODE!!
 - [x] add more visual enhancements
 - [ ] add custom css injection feild
+- [ ] create github actions
