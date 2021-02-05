@@ -2,7 +2,8 @@
 This is a browser extension for eclass, which removes pop-ups and gives it a modern look. *subjective*
 *For optimal results use Firefox :)*
 
-##  ![](https://img.shields.io/badge/Firefox-70.0+-orange?style=flat-square) 
+##  ![](https://img.shields.io/badge/Firefox-70.0+-orange?style=flat-square) ![](https://img.shields.io/badge/Safari-14.0+-skyblue?style=flat-square) 
+
 
 ### Installation (pre-complied):
 
